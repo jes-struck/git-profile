@@ -1,0 +1,25 @@
+[user]
+        email = Jes.Struck@cybercom.com
+        name = Jes Struck
+[alias]
+        lol   = log --graph --decorate --pretty=oneline --abbrev-commit --all
+        hist  = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+        mylog = log --pretty=format:'%h %s [%an]' --graph
+        st = status
+        ci = commit
+        br = branch
+        co = checkout
+        df = diff
+        ds = diff --staged
+        lg = log -p
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --date=local
+        ls = ls-files
+        unstage = reset HEAD
+        # Show files ignored by git:
+        ign = ls-files -o -i --exclude-standard
+
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
